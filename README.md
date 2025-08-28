@@ -94,6 +94,10 @@ CREATE TABLE inventory
   CONSTRAINT inventory_fk_products FOREIGN KEY (product_id) REFERENCES products(product_id)
   );
 ```
+## Data Cleaning
+I cleaned the dataset by:
+- **Removing duplicates**: Duplicates in the customer and order tables were identified and removed.
+- **Handling missing values**: Null values in critical fields (e.g., customer address, payment status) were either filled with default values or handled using appropriate methods.
 
 
 
