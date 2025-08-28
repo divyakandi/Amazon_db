@@ -676,6 +676,13 @@ call add_sales
 (
 25005, 2, 5, 25004, 1, 14
 );
+## **Learning Outcomes**
+This project enabled me to:
+- Design and implement a normalized database schema.
+- Clean and preprocess real-world datasets for analysis.
+- Use advanced SQL techniques, including window functions, subqueries, and joins.
+- Conduct in-depth business analysis using SQL.
+- Optimize query performance and handle large datasets efficiently.
 
 
 
